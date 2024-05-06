@@ -1,0 +1,21 @@
+{
+  "name": "nuxt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/seo": "^2.0.0-rc.10",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.20",
+    "vue-router": "^4.3.0"
+  },
+  "dependencies": {
+    "nuxt-schema-org": "^3.3.6"
+  }
+}
